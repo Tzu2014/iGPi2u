@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<link rel="stylesheet" href="http://demos.jquerymobile.com/1.4.0/theme-classic/theme-classic.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<title></title>
+		<style>
+			.ui-page1 { 
+				position:fixed;
+				top:0;
+				left:0;
+				width:100%;
+				height:100%;
+				background:url(background/bk1.jpg) 0 0  fixed !important;
+				background-size:100% 100%;
+				background-repeat:repeat;
+			}
+			.ui-page2 { 
+				position:fixed;
+				top:0;
+				left:0;
+				width:100%;
+				height:100%;
+				background:url(background/bk2.jpg) 0 0  fixed !important;
+				background-size:100% 100%;
+				background-repeat:repeat;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Basic knowledge -->
+			<div id="basicKL" data-role="page" data-theme="d" class="ui-page2">
+			  <div data-role="header" data-position="fixed">
+				<h3>Knowledge about cat</h3>
+				<a href="index.html" data-ajax="false" data-role="button" data-icon="back" data-iconpos="notext" class="ui-btn-left">back</a>
+				<a href="index.html" data-ajax="false" data-role="button" data-icon="home" data-iconpos="notext" class="ui-btn-right">home</a>
+			  </div>
+			  <div data-role="content">				
+				<h3 align="center">Pet Restaurant</h3>
+				<div data-role="collapsible-set">
+				<!--
+				data-theme=""：標題樣式
+				data-content-theme=""：內容樣式
+				-->
+					<div data-role="collapsible">
+						<h3>Taipei - 寵咖啡／寵私廚</h3>
+						<h4>--- Tel ---</h4><p>0971 492 183</p>
+						<h4>--- Address ---</h4><p>新北市永和區保安路292號</p>
+						<h4>--- Business hours ---</h4><p>11:30a.m. - 21:30p.m.</p>			
+						<h4>--- About ---</h4><p>愛，是我們所有料理的配方。<br/>【寵咖啡 / 寵私廚】是人與寵物和諧相處的「純淨」友善餐廳。號召了多位全台最頂尖的師傅，共同創作出最美味、最健康的各式餐點及甜點。</p>
+						<h4>--- Facebook ---</h4><p><a href="https://www.facebook.com/thefavorite.cafe/">寵咖啡／寵私廚／The Favorite café</a></p>
+					</div>
+					<div data-role="collapsible">
+						<h3>Taipei - 愛狗夢樂園</h3>
+						<h4>--- Tel ---</h4><p>(02)2646-3438</p>
+						<h4>--- Address ---</h4><p>新北市汐止區汐萬路三段295號</p>
+						<h4>--- Business hours ---</h4>
+						<p>Thursday to Sunday:<br/>10:00 a.m. to 5:00 p.m.</p>
+						<h4>--- ways of charging ---</h4><p>Large breed 350 dollars <br/> small breed or toy breed 150 dollars <br/> Admission Rates 100 dollars/person(Get a special offer on meal)</p>
+						<h4>--- Facebook ---</h4><p><a href="https://www.facebook.com/pg/sunnydogswim/about/">愛狗夢樂園</a></p>
+					</div>
+					<div data-role="collapsible">
+						<h3>Taipei - 兜味Doorway café</h3>
+						<h4>--- Tel ---</h4><p>(02)2557-3169</p>
+						<h4>--- Address ---</h4><p>新北市大同區安西街36號</p>
+						<h4>--- Business hours ---</h4><p>每週二公休，每月第1個週一也休。<br/>營業時間不很一定，中午1點後營業，晚上可能7點或8點休息。</p>						
+						<h4>--- About ---</h4><p>位在台北安西街的兜味，裝潢走古老風味的咖啡廳，身藏在一般住宅區，來這裡仿佛就有在家用餐的感覺！這不僅是寵物友善餐廳，還有有提供寵物餐點哦！</p>
+						<h4>--- Facebook ---</h4><p><a href="https://www.facebook.com/pg/sunnydogswim/about/">兜味Doorway café</a></p>
+					</div>
+					<div data-role="collapsible">
+						<h3>Taoyuan - 花嘿熊主題餐廳</h3>
+						<h4>--- Tel ---</h4><p>(03)4712-373</p>
+						<h4>--- Address ---</h4><p>桃園縣龍潭鄉清水坑一鄰10-1號</p>
+						<h4>--- Business hours ---</h4><p>
+						<p>Monday to Tuesday and Friday to Sunday:<br/>10:00 a.m. to 5:00 p.m.</p>				
+						<h4>--- About ---</h4><p></p>
+						<h4>--- Facebook ---</h4><p><a href="https://www.facebook.com/pg/sunnydogswim/about/">愛狗夢樂園</a></p>
+					</div>
+					<div data-role="collapsible">
+						<h3>Miaoli - 幸福農場</h3>
+						<h4>--- Tel ---</h4><p>0958-752880</p>
+						<h4>--- Address ---</h4><p>苗栗縣通宵鎮通灣里6鄰58號</p>
+						<h4>--- Business hours ---</h4><p>
+						<p>Friday to Sunday:<br/>10:00 a.m. to 6:00 p.m.</p>	
+						<h4>--- ways of charging ---</h4><p>Under 15 kg 100 dollars <br/>More than 15 kg 150 dollars</p>			
+						<h4>--- About ---</h4><p>原名為「100號牧場」這裡從原本的一片水稻田、雞寮、隨著台灣時代的轉變，1985年起，從8隻養到300多隻乳牛，天天提供新鮮牛奶到台灣各地，直到2008年量產減沙，也因為主人愛狗狗與愛自己，著手規劃開闢這座假日休咖啡店。</p>
+						<h4>--- Facebook ---</h4><p><a href="https://www.facebook.com/100blissfarm">幸福農場</a></p>
+					</div>
+					<div data-role="collapsible">
+						<h3>Taoyuan - 丑咖啡</h3>
+						<h4>--- Tel ---</h4><p>0926-960776（假日不提供訂位）</p>
+						<h4>--- Address ---</h4><p>桃園市大溪區中山路53號</p>
+						<h4>--- Business hours ---</h4><p>
+						<p>Monday to Friday:<br/>11:00 a.m. to 20:00 p.m.<br/>Saturday to Sunday:<br/>10:00 a.m. to 20:00 p.m.</p>			
+						<h4>--- About ---</h4><p>位於大溪的丑咖啡，沒有提供寵物餐，但給了寵物很大的活動空間。也是老房子改建的咖啡廳，濃濃的懷舊古早味，店內也有許多懷舊電器、擺設。</p>
+						<h4>--- Facebook ---</h4><p><a href="https://www.facebook.com/BUSU.cafe">丑咖啡 BU-SU café</a></p>
+					</div>
+					<div data-role="collapsible">
+						<h3>Hsinchu - 幸運草的家</h3>
+						<h4>--- Tel ---</h4><p>(03)604-9008</p>
+						<h4>--- Address ---</h4><p>新竹市民權路96巷8號</p>
+						<h4>--- Business hours ---</h4><p>
+						<p>Wednesday to Sunday (Mondya rest):<br/>10:00 a.m. to 20:30 p.m.</p>	
+						<h4>--- About ---</h4><p>幸運草的家也是走鄉村風格，裡頭空間大座位多，放了桌椅還能有讓狗狗盡情奔跑的寬敞空間。店內的裝潢也是精緻用心，牆上也貼滿著來過店裡的狗狗及主人們。這裡也有提供狗狗餐點，雖然也只有一種選擇，聊勝於無啦。大人的餐點看起來也是很有功夫！</p>
+						<h4>--- Facebook ---</h4><p><a href="https://www.facebook.com/Clover036049008">幸運草の家-寵物餐廳</a></p>
+					</div>
+					<div data-role="collapsible">
+						<h3>Taipei - 餅乾缺一角</h3>
+						<h4>--- Tel ---</h4><p>(02)2876-7757</p>
+						<h4>--- Address ---</h4><p>台北市士林區天母東路69巷12弄2號1樓</p>
+						<h4>--- Business hours ---</h4><p>
+						<p>Tuesday to Sunday(Monday rest):<br/>9:00 a.m. to 21:00 p.m.</p>	
+						<h4>--- About ---</h4><p>位於天母的餅乾缺一角，帶寵物來這裡需把寵物繫上繩子或放在寵物籃中。也沒有提供寵物餐點，但居住大台北地區的毛爸毛媽們常會帶毛小孩們來這裡，是”小朋友”間聯誼相親的好地方</p>
+						<h4>--- Facebook ---</h4><p><a href=""></a></p>
+					</div>
+					<div data-role="collapsible">
+						<h3>Kaohsiung - 愛上布諾閣</h3>
+						<h4>--- Tel ---</h4><p>07-6529336</p>
+						<h4>--- Address ---</h4><p>高雄市大樹區龍目里（路）54之3</p>
+						<h4>--- Business hours ---</h4><p>
+						<p>Wednesday to Sunday:<br/>11:00 a.m. to 19:00 p.m.</p>	
+						<h4>--- ways of charging ---</h4><p>入園費100元(全額可抵消費)，不接受預訂,更重要的是，滑草限用紙箱並請自備!</p>
+						<h4>--- About ---</h4><p>高雄這間可說是寵物與親子餐廳的結合，戶外有著寬闊的草皮，店頭走地中海風格獨立在大草坪上，彷彿別墅一般。帶寵物及小孩們來這裡姿意奔跑，享受陽光，太幸福啦～！</p>
+						<h4>--- Facebook ---</h4><p><a href="https://www.facebook.com/%E6%84%9B%E4%B8%8A%E5%B8%83%E8%AB%BE%E9%96%A3-650467631730665/">愛上布諾閣</a></p>
+					</div>
+					<div data-role="collapsible">
+						<h3>Kaohsiung - 那個家</h3>
+						<h4>--- Tel ---</h4><p>(07)777-7543</p>
+						<h4>--- Address ---</h4><p>高雄市鳳山區文清街15號</p>
+						<h4>--- Business hours ---</h4><p>
+						<p>Monday to Sunday:<br/>10:00 a.m. to 21:00 p.m.</p>	
+						<h4>--- ways of charging ---</h4><p>Large breed 350 dollars <br/> small breed or toy breed 150 dollars <br/> Admission Rates 100 dollars/person(Get a special offer on meal)</p>
+						<h4>--- About ---</h4><p>這間被寵物部落客列為近期去過最棒的寵物餐廳！餐廳座落在有點隱密的巷弄裡，也是老屋新建的風格，餐廳前也有小小的庭院能讓寵物活動。<br/>店裡也有分為貓咪用餐區及狗狗用餐區。狗和貓的用餐區域都有分別裝設木門，不用擔心寵物會跑出去沒注意到的問題。每一桌旁邊也都備有小木台，拿來放寵物碗用的，店家也有準備寵物碗，提供沒有器具的毛爸毛媽們使用。</p>
+						<h4>--- Facebook ---</h4><p><a href=""></a></p>
+					</div>
+				</div>
+				
+			</div>
+			  <div data-role="footer" data-position="fixed">
+				
+			  </div>
+			</div>
+	</body>
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<link rel="stylesheet" href="http://demos.jquerymobile.com/1.4.0/theme-classic/theme-classic.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<title></title>
+		<style>
+			.ui-page1 { 
+				position:fixed;
+				top:0;
+				left:0;
+				width:100%;
+				height:100%;
+				background:url(background/bk1.jpg) 0 0  fixed !important;
+				background-size:100% 100%;
+				background-repeat:repeat;
+			}
+			.ui-page2 { 
+				position:fixed;
+				top:0;
+				left:0;
+				width:100%;
+				height:100%;
+				background:url(background/bk2.jpg) 0 0  fixed !important;
+				background-size:100% 100%;
+				background-repeat:repeat;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Basic knowledge -->
+			<div id="basicKL" data-role="page" data-theme="d" class="ui-page2">
+			  <div data-role="header" data-position="fixed">
+				<h3>Knowledge about cat</h3>
+				<a href="index.html" data-ajax="false" data-role="button" data-icon="back" data-iconpos="notext" class="ui-btn-left">back</a>
+				<a href="index.html" data-ajax="false" data-role="button" data-icon="home" data-iconpos="notext" class="ui-btn-right">home</a>
+			  </div>
+			  <div data-role="content" align="center">
+				<div data-role="tabs" id="tabs">
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#one" data-ajax="false">Dog</a></li>
+							<li><a href="#two" data-ajax="false">Cat</a></li>
+							<li><a href="#three" data-ajax="false">Mouse</a></li>
+							<li><a href="#five" data-ajax="false">Rabbit</a></li>
+							<li><a href="#six" data-ajax="false">Special</a></li>
+						</ul>
+					</div>
+				<!-- one dog -->
+					<div id="one">
+						<h3>Dog</h3>
+						<ul data-role="listview" data-inset="true">
+						<!-- About -->
+							<div data-role="collapsibleset">
+								<div data-role="collapsible">
+									<h3>About</h3> <!-- collapsible title -->
+									<p align="left">Dogs (Canis lupus familiaris) are domesticated mammals, not natural wild animals. They were originally bred from wolves. They have been bred by humans for a long time, and probably were the first animals ever to be domesticated.</p>
+									<p align="left">Today, some dogs are used as pets, others are used to help humans do their work. They are a popular pet because they are usually playful, friendly, and listen to humans. Thirty million dogs in the United States are registered as pets. Dogs eat both meat and vegetables, often mixed together and sold in stores as dog food. Dogs often have jobs, including as police dogs, army dogs, assistance dogs, fire dogs, messenger dogs, hunting dogs, herding dogs, or rescue dogs.</p>
+									<p align="left">They are sometimes called "canines" from the Latin word for dog - canis. Sometimes people also use "dog" to describe other canids, such as wolves. A baby dog is called a pup or puppy. A dog is called a puppy until it is about one year old.</p>
+									<p align="left">Dogs are sometimes referred to as "man's best friend" because they are kept as domestic pets and are usually loyal and like being around humans.</p>
+								</div>
+							</div>
+						<!-- Feed -->
+							<div data-role="collapsibleset">
+								<div data-role="collapsible">
+									<h3>Food</h3> <!-- collapsible title -->
+									<h4>Foods dangerous to dogs</h4>
+									<p align="left">A number of common human foods and household ingestibles are toxic to dogs, including chocolate solids (theobromine poisoning), onion and garlic (thiosulfate, sulfoxide or disulfide poisoning), grapes and raisins (cause kidney failure in dogs), milk (lactose intolerance, causes diarrhea in dogs), nutmeg (neurotoxic to dogs), macadamia nuts, as well as various plants and other potentially ingested materials.</p>
+									<p align="left"></p>
+									<p align="left"></p>
+								</div>
+							</div>
+						<!-- Life -->
+							<div data-role="collapsibleset">
+								<div data-role="collapsible">
+									<h3>Life</h3> <!-- collapsible title -->
+									<p align="left">Different dog breeds have different lifespans. In general, smaller dogs live longer than bigger ones. The size and the breed of the dog change how long the dog lives, on average. Breeds such as the Dachshund usually live for fifteen years, Chihuahuas can reach age twenty. The Great Dane, on the other hand has an average lifespan of six to eight years; some Great Danes have lived for ten years.</p>
+									<p align="left"></p>
+									<p align="left"></p>
+								</div>
+							</div>
+						</ul>
+					</div>				
+				
+				<!-- two cat -->
+					<div id="two">
+						<h3>Cat</h3>
+						<ul data-role="listview" data-inset="true">
+						<!-- About -->
+							<div data-role="collapsibleset">
+								<div data-role="collapsible">
+									<h3>About</h3> <!-- collapsible title -->
+									<p align="left">Cats have either a mutualistic or commensal relationship with humans. Two main theories are given about how cats were domesticated. In one, people deliberately tamed cats in a process of artificial selection as they were useful predators of vermin. This has been criticized as implausible, because the reward for such an effort may have been too little; cats generally do not carry out commands and although they do eat rodents, other species such as ferrets or terriers may be better at controlling these pests. The alternative idea is that cats were simply tolerated by people and gradually diverged from their wild relatives through natural selection, as they adapted to hunting the vermin found around humans in towns and villages.</p>
+									<p align="left"></p>
+									<p align="left"></p>
+								</div>
+							</div>
+						<!-- Health -->
+							<div data-role="collapsibleset">
+								<div data-role="collapsible">
+									<h3>Health</h3> <!-- collapsible title -->
+									<h4>Diseases</h4>
+									<p align="left">Cats can suffer from a wide range of health problems, including infectious diseases, parasites, injuries, and chronic disease. Vaccinations are available for many of these diseases, and domestic cats are regularly given treatments to eliminate parasites such as worms and fleas.</p>
+									<p align="left"></p>
+									<p align="left"></p>
+									<h4>Poisoning</h4>
+									<p align="left">In addition to obvious dangers such as rodenticides, insecticides, and herbicides, cats may be poisoned by many chemicals usually considered safe by their human guardians, because their livers are less effective at some forms of detoxification than those of many other animals, including humans and dogs. Some of the most common causes of poisoning in cats are antifreeze and rodent baits. Cats may be particularly sensitive to environmental pollutants. When a cat has a sudden or prolonged serious illness without any obvious cause, it has possibly been exposed to a toxin.</p>
+									<p align="left">Many human medicines should never be given to cats. For example, the painkiller paracetamol (or acetaminophen, sold as Tylenol and Panadol) is extremely toxic to cats: even very small doses need immediate treatment and can be fatal. Even aspirin, which is sometimes used to treat arthritis in cats, is much more toxic to them than to humans and must be administered cautiously. Similarly, application of minoxidil (Rogaine) to the skin of cats, either accidentally or by well-meaning guardians attempting to counter loss of fur, has sometimes been fatal. Essential oils can be toxic to cats and cases have been reported of serious illnesses caused by tea tree oil, including flea treatments and shampoos containing it.</p>
+									<p align="left">Other common household substances that should be used with caution around cats include mothballs and other naphthalene products. Phenol-based products (e.g. Pine-Sol, Dettol/Lysol or hexachlorophene) are often used for cleaning and disinfecting near cats' feeding areas or litter boxes, but these can sometimes be fatal. Ethylene glycol, often used as an automotive antifreeze, is particularly appealing to cats, and as little as a teaspoonful can be fatal. Some human foods are toxic to cats; for example chocolate can cause theobromine poisoning, although (unlike dogs) few cats will eat chocolate. Large amounts of onions or garlic are also poisonous to cats. Many houseplants are also dangerous, such as Philodendron species and the leaves of the Easter lily (Lilium longiflorum), which can cause permanent and life-threatening kidney damage.</p>
+									<h4>Genetics</h4>
+									<p align="left">The domesticated cat and its closest wild ancestor are both diploid organisms that possess 38 chromosomes and roughly 20,000 genes. About 250 heritable genetic disorders have been identified in cats, many similar to human inborn errors. The high level of similarity among the metabolism of mammals allows many of these feline diseases to be diagnosed using genetic tests that were originally developed for use in humans, as well as the use of cats as animal models in the study of the human diseases.</p>
+									<p align="left"></p>
+									<p align="left"></p>
+								</div>
+							</div>
+						<!-- Feed -->
+							<div data-role="collapsibleset">
+								<div data-role="collapsible">
+									<h3>Feed</h3> <!-- collapsible title -->
+									<p align="left">Give enough water</p>
+									<p align="left">Cats are obligate carnivores, meaning they must eat mainly meat and animal organs to thrive. The amino acid taurine, for example, is found only in animal tissue. Lack of taurine can lead a cat to experience heart problems, b lindness, and even death. </p>
+									<p align="left">The nutrients cats need that come from meat, can be provided in the food synthetically</p>
+								</div>
+							</div>
+						</ul>
+					</div>
+				
+				<!-- three mouse -->
+					<div id="three">
+						<h3>Mouse</h3>
+						<ul data-role="listview" data-inset="true">
+						<!-- About -->
+							<div data-role="collapsibleset">
+								<div data-role="collapsible">
+									<h3>About</h3> <!-- collapsible title -->
+									<p align="left">Many people buy mice as companion pets. They can be playful, loving and can grow used to being handled. Like pet rats, pet mice should not be left unsupervised outside as they have many natural predators, including (but not limited to) birds, snakes, lizards, cats, and dogs. Male mice tend to have a stronger odor than the females. However, mice are careful groomers and as pets they never need bathing. Well looked-after mice can make ideal pets.</p>
+									<p align="left"></p>
+									<p align="left"></p>
+								</div>
+							</div>
+						<!-- Care -->
+							<div data-role="collapsibleset">
+								<div data-role="collapsible">
+									<h3>Care</h3> <!-- collapsible title -->
+									<p align="left">Cage – Usually a hamster or gerbil cage, but a variety of special mouse cages are now available. Most should have a secure door.</p>
+									<p align="left">Food – Special pelleted and seed-based food is available. Mice can generally eat most rodent food (for rats, mice, hamsters, gerbils, etc.)</p>
+									<p align="left">Bedding – Usually made of hardwood pulp, such as aspen, sometimes from shredded, uninked paper or recycled virgin wood pulp. Using corn husk bedding is avoided because it promotes Aspergillus fungus, and can grow mold once it gets wet, which is rough on their feet.</p>
+								</div>
+							</div>
+						<!-- Diet -->
+							<div data-role="collapsibleset">
+								<div data-role="collapsible">
+									<h3>Diet</h3> <!-- collapsible title -->
+									<p align="left">In nature, mice are largely herbivores, consuming any kind of fruit or grain from plants. However, mice adapt well to urban areas and are known for eating almost all types of food scraps. In captivity, mice are commonly fed commercial pelleted mouse diet. These diets are nutritionally complete, but they still need a large variety of vegetables. Food intake is approximately 15 g (0.53 oz) per 100 g (3.5 oz) of body weight per day; water intake is approximately 15 ml (0.53 imp fl oz; 0.51 US fl oz) per 100 g of body weight per day.</p>
+									<p align="left"></p>
+									<p align="left"></p>
+								</div>
+							</div>
+						</ul>
+					</div>
+					
+				<!-- five rabbit -->
+					<div id="five">
+						<h3>Rabbit</h3>
+						<ul data-role="listview" data-inset="true">
+						<!-- About -->
+							<div data-role="collapsibleset">
+								<div data-role="collapsible">
+									<h3>About</h3> <!-- collapsible title -->
+									<p align="left">Rabbits are small mammals in the family Leporidae of the order Lagomorpha, found in several parts of the world. There are eight different genera in the family classified as rabbits, including the European rabbit (Oryctolagus cuniculus), cottontail rabbits (genus Sylvilagus; 13 species), and the Amami rabbit (Pentalagus furnessi, an endangered species on Amami Ōshima, Japan). There are many other species of rabbit, and these, along with pikas and hares, make up the order Lagomorpha. The male is called a buck and the female is a doe; a young rabbit is a kitten or kit.</p>
+									<p align="left"></p>
+									<p align="left"></p>
+								</div>
+							</div>
+						<!-- Diet and eating habits -->
+							<div data-role="collapsibleset">
+								<div data-role="collapsible">
+									<h3>Diet and eating habits</h3> <!-- collapsible title -->
+									<p align="left">Rabbits are herbivores that feed by grazing on grass, forbs, and leafy weeds. In consequence, their diet contains large amounts of cellulose, which is hard to digest. Rabbits solve this problem via a form of hindgut fermentation. They pass two distinct types of feces: hard droppings and soft black viscous pellets, the latter of which are known as caecotrophs and are immediately eaten (a behaviour known as coprophagy). Rabbits reingest their own droppings (rather than chewing the cud as do cows and numerous other herbivores) to digest their food further and extract sufficient nutrients.</p>
+									<p align="left">Rabbits graze heavily and rapidly for roughly the first half-hour of a grazing period (usually in the late afternoon), followed by about half an hour of more selective feeding. In this time, the rabbit will also excrete many hard fecal pellets, being waste pellets that will not be reingested. If the environment is relatively non-threatening, the rabbit will remain outdoors for many hours, grazing at intervals. While out of the burrow, the rabbit will occasionally reingest its soft, partially digested pellets; this is rarely observed, since the pellets are reingested as they are produced. Reingestion is most common within the burrow between 8 o'clock in the morning and 5 o'clock in the evening, being carried out intermittently within that period.</p>
+									<p align="left">Hard pellets are made up of hay-like fragments of plant cuticle and stalk, being the final waste product after redigestion of soft pellets. These are only released outside the burrow and are not reingested. Soft pellets are usually produced several hours after grazing, after the hard pellets have all been excreted. They are made up of micro-organisms and undigested plant cell walls.</p>
+									<p align="left">The chewed plant material collects in the large cecum, a secondary chamber between the large and small intestine containing large quantities of symbiotic bacteria that help with the digestion of cellulose and also produce certain B vitamins. The pellets are about 56% bacteria by dry weight, largely accounting for the pellets being 24.4% protein on average. The soft feces form here and contain up to five times the vitamins of hard feces. After being excreted, they are eaten whole by the rabbit and redigested in a special part of the stomach. The pellets remain intact for up to six hours in the stomach; the bacteria within continue to digest the plant carbohydrates. This double-digestion process enables rabbits to use nutrients that they may have missed during the first passage through the gut, as well as the nutrients formed by the microbial activity and thus ensures that maximum nutrition is derived from the food they eat. This process serves the same purpose within the rabbit as rumination does in cattle and sheep.</p>
+									<p align="left">Rabbits are incapable of vomiting.</p>
+								</div>
+							</div>
+						<!-- Life -->
+							<div data-role="collapsibleset">
+								<div data-role="collapsible">
+									<h3>Life</h3> <!-- collapsible title -->
+									<p align="left"></p>
+									<p align="left"></p>
+									<p align="left"></p>
+								</div>
+							</div>
+						</ul>
+					</div>
+		
+				<!-- six special -->
+					<div id="six">
+						<h3>Special</h3>
+						<ul data-role="listview" data-inset="true">
+						<!-- Sugar glider -->
+							<div data-role="collapsibleset">
+								<div data-role="collapsible">
+									<h3>Sugar glider</h3> <!-- collapsible title -->
+									<img width="100%" src="img/bk/sugar_glider.png"/>
+									<p align="left"><a href="https://en.wikipedia.org/wiki/Sugar_glider#In_captivity">Sugar glider</a></p>
+								</div>
+							</div>
+						<!-- Capybara -->
+							<div data-role="collapsibleset">
+								<div data-role="collapsible">
+									<h3>Capybara</h3> <!-- collapsible title -->
+									<img width="100%" src="img/bk/capybara.png"/>
+									<p align="left"><a href="https://en.wikipedia.org/wiki/Capybara">Capybara</a></p>
+								</div>
+							</div>
+						<!-- Hedgehog -->
+							<div data-role="collapsibleset">
+								<div data-role="collapsible">
+									<h3>Hedgehog</h3> <!-- collapsible title -->
+									<img width="100%" src="img/bk/hedgehog.png"/>
+									<p align="left"><a href="https://en.wikipedia.org/wiki/Hedgehog">Hedgehog</a></p>
+								</div>
+							</div>
+						<!-- skunk -->
+							<div data-role="collapsibleset">
+								<div data-role="collapsible">
+									<h3>Skunk</h3> <!-- collapsible title -->
+									<img width="100%" src="img/bk/skunk.png"/>
+									<p align="left"><a href="https://en.wikipedia.org/wiki/Skunk">Skunk</a></p>
+								</div>
+							</div>
+						<!-- Fennec Fox -->
+							<div data-role="collapsibleset">
+								<div data-role="collapsible">
+									<h3>Fennec Fox</h3> <!-- collapsible title -->
+									<img width="100%" src="img/bk/fennec_fox.png"/>
+									<p align="left"><a href="https://zh.wikipedia.org/wiki/%E8%80%B3%E5%BB%93%E7%8B%90">Fennec Fox</a></p>
+								</div>
+							</div>
+						</ul>
+					</div>						
+				</div>
+			  </div>
+			  <div data-role="footer" data-position="fixed">
+				
+			  </div>
+			</div>
+	</body>
+</html>
