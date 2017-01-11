@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="http://demos.jquerymobile.com/1.4.0/theme-classic/theme-classic.css" />
         <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-		<title>BMI Calculator</title>
+		<title>iGPi2u</title>
 		<style>
 			.ui-page1 { 
 				position:fixed;
@@ -27,11 +27,29 @@
 				left:0;
 				width:100%;
 				height:100%;
-				background:url(background/bk2.jpg) 0 0  fixed !important;
+				background:url(img/background/bk2.jpg) 0 0  fixed !important;
 				background-size:100% 100%;
 				background-repeat:repeat;
 			}
 		</style>
+		<script>
+			window.twttr = (function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0],
+				t = window.twttr || {};
+				if (d.getElementById(id)) return t;
+				js = d.createElement(s);
+				js.id = id;
+				js.src = "https://platform.twitter.com/widgets.js";
+				fjs.parentNode.insertBefore(js, fjs);
+	
+				t._e = [];
+				t.ready = function(f) {
+					t._e.push(f);
+				};
+	
+				return t;
+			}(document, "script", "twitter-wjs"));
+		</script>
 	</head>
 	<body>
 	<!-- HOME -->
@@ -47,14 +65,14 @@
 					<li><a href="restautant.html" data-ajax="false"><img src="img/restautant.png" class="ui-li-icon">Restaurant</a></li>
 					<!-- <li><a href="boarding.html" data-ajax="false"><img src="img/boarding.png" class="ui-li-icon">Boarding</a></li> -->
 					<li><a href="http://animal-adoption.coa.gov.tw/index.php/index" data-ajax="false"><img src="img/adoption.png" class="ui-li-icon">Adoption</a></li>
-					<li><a href="http://www.onlypet.com.tw/opsc/view_2_171.html" data-ajax="false"><img src="img/traffic.png" class="ui-li-icon">Traffic</a></li>
+					<li><a href="traffic.html" data-ajax="false"><img src="img/traffic.png" class="ui-li-icon">Traffic</a></li>
 					<!-- <li><a href="forum.html" data-ajax="false"><img src="img/forum.png" class="ui-li-icon">Discussion</a></li> -->
 					<!-- <li><a href="picSH.html" data-ajax="false"><img src="img/picSH.png" class="ui-li-icon">Picture share</a></li> -->
 					<li><a href="about.html" data-ajax="false"><img src="img/about.png" class="ui-li-icon">About me</a> </li>
 				</ul>
 			</div>
-			<div data-role="footer" data-position="fixed">
-			
+			<div data-role="footer" data-position="fixed" align="cener">
+				<h5><a href="https://twitter.com/helen75369" class="twitter-follow-button" data-show-count="false">Follow @iGPi2u</a></h5>
 			</div>
 		</div>
 	</body>
